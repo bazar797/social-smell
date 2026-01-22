@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "type": "machista",
+      "title": "¡Enhorabuena, eres MACHISTA!",
+      "description": "Tus respuestas revelan que tienes más sesgos de género que un anuncio de detergente de los 80. Puede que pienses que las mujeres pertenecen a la cocina, pero tranquilo, la cocina también tiene WiFi. Tu abuelo estaría orgulloso, pero quizás deberías plantearte si sus consejos siguen siendo válidos en 2024.",
+      "images": [
+        "https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif",
+        "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
+        "https://media.giphy.com/media/QUXYcgCwvCm4cKcrI3/giphy.gif"
+      ]
+    },
+    {
+      "type": "racista",
+      "title": "¡Felicidades, eres RACISTA!",
+      "description": "Según tus respuestas, cambias de acera más que un peatón indeciso y crees que 'multiculturalismo' es una mala palabra. Probablemente piensas que tu cultura es la mejor porque... bueno, porque es la tuya. El lado positivo: al menos eres consistente en tus prejuicios. El lado negativo: todo lo demás.",
+      "images": [
+        "https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif",
+        "https://media.giphy.com/media/3oz8xLd9DJq2l2VFtu/giphy.gif",
+        "https://media.giphy.com/media/pPhyAv5t9V8djyRFJH/giphy.gif"
+      ]
+    },
+    {
+      "type": "ambos",
+      "title": "¡COMBO COMPLETO! Machista Y Racista",
+      "description": "¡Impresionante! Has conseguido el pack completo de prejuicios. Eres como un bingo de discriminación: no te dejas nada. Tu mente es tan cerrada que ni la luz entra. La buena noticia es que tienes mucho margen de mejora. La mala es que partías de muy abajo. Considera esto un despertar de conciencia... o sigue ignorándolo como has hecho hasta ahora.",
+      "images": [
+        "https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif",
+        "https://media.giphy.com/media/3oEjHI8WJv4x6UPDB6/giphy.gif",
+        "https://media.giphy.com/media/xT0GqfvuVpjJbG1Hu8/giphy.gif"
+      ]
+    },
+    {
+      "type": "ninguno",
+      "title": "Hmm... ¿Eres real?",
+      "description": "O eres la persona más tolerante del planeta, o has mentido más que un político en campaña. Según tus respuestas, no tienes ni un solo prejuicio. Eres prácticamente un unicornio de la igualdad. Puede que seas genuinamente una buena persona... o puede que simplemente sepas qué respuestas 'quedan bien'. En cualquier caso, felicidades por pasar el test. Ahora vuelve al mundo real donde todos tenemos sesgos que trabajar.",
+      "images": [
+        "https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif",
+        "https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif",
+        "https://media.giphy.com/media/xT9IgG50Fb7Mi0prBC/giphy.gif"
+      ]
+    }
+  ],
+  "thresholds": {
+    "high": 50,
+    "low": 30
+  }
+}
