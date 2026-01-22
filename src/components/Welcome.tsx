@@ -18,9 +18,9 @@ export function Welcome({ onStart }: WelcomeProps) {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white p-6 overflow-hidden">
-      <div className="max-w-3xl text-center relative">
+      <div className="w-full max-w-3xl text-center relative overflow-hidden">
         {/* Título principal con animación */}
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 leading-tight break-words">
           <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent animate-pulse">
             ¿Eres más
           </span>
@@ -86,20 +86,20 @@ export function Welcome({ onStart }: WelcomeProps) {
         </button>
 
         {/* Badges de características */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
-          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
+        <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-4 gap-2 mb-8">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10">
             <div className="text-2xl mb-1">{questionCount}</div>
             <div className="text-xs text-gray-400">Preguntas</div>
           </div>
-          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10">
             <div className="text-2xl mb-1">{getDurationText(questionCount)}</div>
             <div className="text-xs text-gray-400">Duración</div>
           </div>
-          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10">
             <div className="text-2xl mb-1">100%</div>
             <div className="text-xs text-gray-400">Anónimo</div>
           </div>
-          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
+          <div className="bg-white/5 backdrop-blur-sm rounded-xl p-3 border border-white/10">
             <div className="text-2xl mb-1">0%</div>
             <div className="text-xs text-gray-400">Políticamente correcto</div>
           </div>
