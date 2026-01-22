@@ -20,7 +20,7 @@ export function Welcome({ onStart }: WelcomeProps) {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white p-6 overflow-hidden">
       <div className="max-w-3xl text-center relative">
         {/* Título principal con animación */}
-        <h1 className="text-5xl md:text-7xl font-black mb-6 leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-7xl font-black mb-6 leading-tight">
           <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent animate-pulse">
             ¿Eres más
           </span>
@@ -79,7 +79,7 @@ export function Welcome({ onStart }: WelcomeProps) {
         {/* CTA Principal */}
         <button
           onClick={() => onStart(questionCount)}
-          className="group relative px-12 py-5 bg-gradient-to-r from-pink-600 via-red-600 to-orange-600 hover:from-pink-500 hover:via-red-500 hover:to-orange-500 text-white text-xl font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-pink-500/40 mb-8"
+          className="group relative px-12 py-5 min-h-[48px] bg-gradient-to-r from-pink-600 via-red-600 to-orange-600 hover:from-pink-500 hover:via-red-500 hover:to-orange-500 text-white text-xl font-bold rounded-full transition-all duration-300 transform hover:scale-105 shadow-2xl hover:shadow-pink-500/40 mb-8"
         >
           <span className="relative z-10">¿Te atreves a descubrirlo?</span>
           <div className="absolute inset-0 bg-gradient-to-r from-pink-600 via-red-600 to-orange-600 rounded-full blur-lg opacity-50 group-hover:opacity-75 transition-opacity"></div>

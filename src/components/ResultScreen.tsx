@@ -40,7 +40,7 @@ export function ResultScreen({ score, resultType, onRestart, onGoHome }: ResultS
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white p-6">
       <div className="w-full max-w-2xl text-center">
         <h1
-          className={`text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r ${getGradient()} bg-clip-text text-transparent`}
+          className={`text-2xl sm:text-3xl md:text-5xl font-bold mb-6 bg-gradient-to-r ${getGradient()} bg-clip-text text-transparent`}
         >
           {resultText?.title || 'Resultado'}
         </h1>
@@ -89,13 +89,13 @@ export function ResultScreen({ score, resultType, onRestart, onGoHome }: ResultS
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={onRestart}
-            className="px-8 py-4 bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white text-lg font-medium rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
+            className="px-8 py-6 min-h-[48px] bg-gradient-to-r from-pink-600 to-purple-600 hover:from-pink-500 hover:to-purple-500 text-white text-lg font-medium rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
           >
             Volver a intentarlo
           </button>
           <button
             onClick={onGoHome}
-            className="px-8 py-4 bg-white/10 hover:bg-white/20 text-white text-lg font-medium rounded-full transition-all duration-300 border border-white/20"
+            className="px-8 py-6 min-h-[48px] bg-white/10 hover:bg-white/20 text-white text-lg font-medium rounded-full transition-all duration-300 border border-white/20"
           >
             Volver al inicio
           </button>
