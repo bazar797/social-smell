@@ -2,7 +2,7 @@
 
 A satirical quiz web application inspired by the Spanish TV show "La Resistencia". Users answer 20 questions (configurable: 10, 20, 30, or 40) and receive a humorous result classifying them as "machista", "racista", both, or neither.
 
-**Disclaimer**: This is satire. It has no scientific validity whatsoever.
+**Disclaimer**: This is satire. It has no scientific validity whatsoever. 
 
 ## Features
 
