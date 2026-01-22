@@ -20,7 +20,7 @@ export function Welcome({ onStart }: WelcomeProps) {
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-br from-purple-900 via-gray-900 to-black text-white p-6 overflow-hidden">
       <div className="w-full max-w-3xl text-center relative overflow-hidden">
         {/* Título principal con animación */}
-        <h1 className="text-3xl sm:text-4xl md:text-6xl font-black mb-6 leading-tight break-normal">
+        <h1 className="text-2xl sm:text-3xl md:text-5xl font-black mb-6 leading-tight break-normal">
           <span className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 bg-clip-text text-transparent animate-pulse">
             ¿Eres más
           </span>
