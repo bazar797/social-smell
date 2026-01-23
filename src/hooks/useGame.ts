@@ -70,8 +70,8 @@ export function useGame(config: Partial<GameConfig> = {}) {
 
   const resultType: ResultType | null = useMemo(() => {
     if (status !== 'finished') return null;
-    return determineResult(score, gameConfig.thresholdPercentage);
-  }, [status, score, gameConfig.thresholdPercentage]);
+    return determineResult(score);
+  }, [status, score]);
 
   const currentQuestion = questions[currentIndex] || null;
   const progress = questions.length > 0 

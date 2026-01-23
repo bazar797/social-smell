@@ -1,4 +1,4 @@
-import type { Question, Score, ResultType } from '../types';
+import type { Question, Score, ResultType, IntensityLevel } from '../types';
 
 /**
  * Shuffle array randomly (Fisher-Yates algorithm)
@@ -113,12 +113,20 @@ export function calculateScore(
 }
 
 /**
- * Determine result type based on score
+ * Get intensity level based on percentage
  */
-export function determineResult(
-  score: Score,
-  thresholdPercentage: number = 50
-): ResultType {
+export function getIntensityLevel(percentage: number): IntensityLevel {
+  if (percentage >= 70) return 'muy-alto';
+  if (percentage >= 50) return 'alto';
+  if (percentage >= 30) return 'moderado';
+  if (percentage >= 10) return 'bajo';
+  return 'minimo';
+}
+
+/**
+ * Determine result type based on score with multi-tier logic
+ */
+export function determineResult(score: Score): ResultType {
   const machistaPercentage =
     score.totalMachista > 0
       ? (score.machista / score.totalMachista) * 100
@@ -128,12 +136,60 @@ export function determineResult(
       ? (score.racista / score.totalRacista) * 100
       : 0;
 
-  const isMachista = machistaPercentage >= thresholdPercentage;
-  const isRacista = racistaPercentage >= thresholdPercentage;
+  const mLevel = getIntensityLevel(machistaPercentage);
+  const rLevel = getIntensityLevel(racistaPercentage);
 
-  if (isMachista && isRacista) return 'ambos';
-  if (isMachista) return 'machista';
-  if (isRacista) return 'racista';
+  // Caso: Ambos muy altos (70-100% en ambos)
+  if (mLevel === 'muy-alto' && rLevel === 'muy-alto') {
+    return 'muy-ambos';
+  }
+
+  // Caso: Ambos altos (50-100% en ambos, pero no ambos muy-alto)
+  if (
+    (mLevel === 'muy-alto' || mLevel === 'alto') &&
+    (rLevel === 'muy-alto' || rLevel === 'alto')
+  ) {
+    return 'ambos-alto';
+  }
+
+  // Caso: Ambos moderados (30-49% en ambos)
+  if (mLevel === 'moderado' && rLevel === 'moderado') {
+    return 'ambos-moderado';
+  }
+
+  // Caso: Machista con tintes racistas (M alto/muy-alto, R moderado)
+  if ((mLevel === 'muy-alto' || mLevel === 'alto') && rLevel === 'moderado') {
+    return 'machista-tintes-racista';
+  }
+
+  // Caso: Racista con tintes machistas (R alto/muy-alto, M moderado)
+  if ((rLevel === 'muy-alto' || rLevel === 'alto') && mLevel === 'moderado') {
+    return 'racista-tintes-machista';
+  }
+
+  // Casos puros de machismo (R bajo/mínimo)
+  if (mLevel === 'muy-alto' && (rLevel === 'bajo' || rLevel === 'minimo')) {
+    return 'muy-machista';
+  }
+  if (mLevel === 'alto' && (rLevel === 'bajo' || rLevel === 'minimo')) {
+    return 'machista';
+  }
+  if (mLevel === 'moderado' && (rLevel === 'bajo' || rLevel === 'minimo')) {
+    return 'poco-machista';
+  }
+
+  // Casos puros de racismo (M bajo/mínimo)
+  if (rLevel === 'muy-alto' && (mLevel === 'bajo' || mLevel === 'minimo')) {
+    return 'muy-racista';
+  }
+  if (rLevel === 'alto' && (mLevel === 'bajo' || mLevel === 'minimo')) {
+    return 'racista';
+  }
+  if (rLevel === 'moderado' && (mLevel === 'bajo' || mLevel === 'minimo')) {
+    return 'poco-racista';
+  }
+
+  // Caso: Ambos bajos/mínimos → Ninguno
   return 'ninguno';
 }
 

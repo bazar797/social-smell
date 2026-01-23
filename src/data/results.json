@@ -1,9 +1,10 @@
 {
   "results": [
     {
-      "type": "machista",
-      "title": "¡Enhorabuena, eres MACHISTA!",
-      "description": "Tus respuestas revelan que tienes más sesgos de género que un anuncio de detergente de los 80. Puede que pienses que las mujeres pertenecen a la cocina, pero tranquilo, la cocina también tiene WiFi. Tu abuelo estaría orgulloso, pero quizás deberías plantearte si sus consejos siguen siendo válidos en 2024.",
+      "type": "muy-machista",
+      "title": "¡Nivel EXPERTO en Machismo!",
+      "emoji": "🔥",
+      "description": "¡Felicidades campeón! Has alcanzado el nivel máximo en machismo, una hazaña que ni tu abuelo logró. Crees que las mujeres pertenecen a la cocina, pero sorpresa: ellas también tienen WiFi ahí. Tu mentalidad viene con garantía extendida desde 1950. El lado positivo: eres consistente. El lado negativo: literalmente todo lo demás. Quizás es hora de actualizar el firmware.",
       "images": [
         "https://media.giphy.com/media/l0HlvtIPzPdt2usKs/giphy.gif",
         "https://media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif",
@@ -11,9 +12,32 @@
       ]
     },
     {
-      "type": "racista",
-      "title": "¡Felicidades, eres RACISTA!",
-      "description": "Según tus respuestas, cambias de acera más que un peatón indeciso y crees que 'multiculturalismo' es una mala palabra. Probablemente piensas que tu cultura es la mejor porque... bueno, porque es la tuya. El lado positivo: al menos eres consistente en tus prejuicios. El lado negativo: todo lo demás.",
+      "type": "machista",
+      "title": "¡Sólido Machista de Manual!",
+      "emoji": "💪",
+      "description": "Tus respuestas demuestran que tienes más sesgos de género que un anuncio de detergente de los 80. No eres el peor, pero definitivamente estás en el podio. Probablemente piensas que 'ayudar en casa' es un favor, no una obligación. Tu abuelo estaría orgulloso, tu pareja... bueno, mejor no preguntamos. Aún estás a tiempo de evolucionar, pero parece que prefieres la zona de confort del patriarcado.",
+      "images": [
+        "https://media.giphy.com/media/1Be6IuEXMcZuoBhhBi/giphy.gif",
+        "https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif",
+        "https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif"
+      ]
+    },
+    {
+      "type": "poco-machista",
+      "title": "Machista de Domingo",
+      "emoji": "🤏",
+      "description": "No eres un machista profesional, solo practicas de vez en cuando. Tienes algunos sesgos de género escondidos bajo la alfombra, como ese comentario 'inocente' que nadie pidió. La buena noticia: no estás perdido. La mala: tus microagresiones siguen ahí. Con un poco de autocrítica podrías dejar esta categoría. O puedes seguir siendo 'ese tipo' que dice 'pero si era broma'. Tú eliges.",
+      "images": [
+        "https://media.giphy.com/media/3o6Zt4HU9uwXmXSAuI/giphy.gif",
+        "https://media.giphy.com/media/l0MYEqEzwMWFCg8rm/giphy.gif",
+        "https://media.giphy.com/media/xT5LMHxhOfscxPfIfm/giphy.gif"
+      ]
+    },
+    {
+      "type": "muy-racista",
+      "title": "¡Nivel EXPERTO en Racismo!",
+      "emoji": "🔥",
+      "description": "¡Enhorabuena! Has alcanzado el nivel élite de los prejuicios raciales. Cambias de acera con tanta frecuencia que pareces un GPS roto. Crees que 'multiculturalismo' es sinónimo de apocalipsis y que tu cultura es superior porque... bueno, porque es la tuya. Tu mente es tan cerrada que la luz no entra ni por rendijas. Quizás deberías plantearte si el problema no está en los demás, sino en tu espejo.",
       "images": [
         "https://media.giphy.com/media/l3q2K5jinAlChoCLS/giphy.gif",
         "https://media.giphy.com/media/3oz8xLd9DJq2l2VFtu/giphy.gif",
@@ -21,9 +45,32 @@
       ]
     },
     {
-      "type": "ambos",
-      "title": "¡COMBO COMPLETO! Machista Y Racista",
-      "description": "¡Impresionante! Has conseguido el pack completo de prejuicios. Eres como un bingo de discriminación: no te dejas nada. Tu mente es tan cerrada que ni la luz entra. La buena noticia es que tienes mucho margen de mejora. La mala es que partías de muy abajo. Considera esto un despertar de conciencia... o sigue ignorándolo como has hecho hasta ahora.",
+      "type": "racista",
+      "title": "¡Sólido Racista Certificado!",
+      "emoji": "👎",
+      "description": "Según tus respuestas, tus prejuicios raciales están bien establecidos. No eres el peor del ranking, pero definitivamente mereces un diploma. Probablemente tienes 'amigos de todas las razas' (o eso dices), pero luego sueltas comentarios que hacen que todos se miren incómodos. Tu radar de estereotipos está finamente calibrado. Podrías trabajar en ello, pero primero tendrías que admitir que hay un problema. Spoiler: lo hay.",
+      "images": [
+        "https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif",
+        "https://media.giphy.com/media/xT0xeJpnrWC4XWblEk/giphy.gif",
+        "https://media.giphy.com/media/3oz8xIsloV7zOmt81G/giphy.gif"
+      ]
+    },
+    {
+      "type": "poco-racista",
+      "title": "Racista de Domingo",
+      "emoji": "🤏",
+      "description": "No eres un racista de tiempo completo, solo tienes algunos prejuicios ocasionales que salen cuando crees que nadie escucha. Ese chiste 'inocente', ese comentario 'sin mala intención'... sí, cuentan. La buena noticia: aún no estás en el lado oscuro. La mala: estás coqueteando con él. Un poco de empatía y educación podrían salvarte. O puedes seguir siendo 'ese que dice que no es racista, pero...'",
+      "images": [
+        "https://media.giphy.com/media/l0HlQ7LRalQqdWfao/giphy.gif",
+        "https://media.giphy.com/media/3o6ZsYq8jLD4hBwkZG/giphy.gif",
+        "https://media.giphy.com/media/l0MYOrDnFAG1Heartg/giphy.gif"
+      ]
+    },
+    {
+      "type": "muy-ambos",
+      "title": "¡COMBO LEGENDARIO! Máster en Prejuicios",
+      "emoji": "💥",
+      "description": "¡IMPRESIONANTE! Has desbloqueado el logro más difícil: nivel experto en AMBAS categorías. Eres como un bingo de discriminación que no se deja nada fuera. Tu mente es tan cerrada que ni el aire circula. Probablemente culpas a 'los demás' de todo mientras ignoras tu propio reflejo. La buena noticia: tienes MUCHÍSIMO margen de mejora. La mala: estás en el sótano del sótano. Esto podría ser un despertar... o puedes seguir ignorándolo como hasta ahora.",
       "images": [
         "https://media.giphy.com/media/l0IylOPCNkiqOgMyA/giphy.gif",
         "https://media.giphy.com/media/3oEjHI8WJv4x6UPDB6/giphy.gif",
@@ -31,9 +78,54 @@
       ]
     },
     {
+      "type": "ambos-alto",
+      "title": "¡Pack Completo de Prejuicios!",
+      "emoji": "🎯",
+      "description": "¡Felicidades! Has conseguido el paquete premium de sesgos: machismo Y racismo en dosis generosas. No eres el peor del ranking, pero definitivamente estás en el top 3 de tu barrio. Tus prejuicios son tan variados que podrías abrir una tienda. La diversidad te asusta, la igualdad te confunde, y tu zona de confort tiene fecha de caducidad de 1975. Considera esto una señal de alarma... o sigue en tu burbuja. Spoiler: la burbuja se va a explotar.",
+      "images": [
+        "https://media.giphy.com/media/3o7aCTPPm4OHfRLSH6/giphy.gif",
+        "https://media.giphy.com/media/l3q2XhfQ8oCkm1Ts4/giphy.gif",
+        "https://media.giphy.com/media/xT0xeMA62E1XIlup68/giphy.gif"
+      ]
+    },
+    {
+      "type": "ambos-moderado",
+      "title": "Prejuicios Equilibrados (Qué Horror)",
+      "emoji": "⚠️",
+      "description": "Enhorabuena, has logrado el equilibrio perfecto... de sesgos. No eres extremo en nada, pero tienes un poquito de todo. Eres como el menú del día de los prejuicios: variado y mediocre. Tus microagresiones están bien distribuidas entre géneros y razas. La buena noticia: no eres un caso perdido. La mala: sigues necesitando una limpieza mental profunda. Piénsalo así: estás en el ecuador del cambio. Puedes subir o bajar. Elige sabiamente.",
+      "images": [
+        "https://media.giphy.com/media/3oEjHCWdU7F4hkcudy/giphy.gif",
+        "https://media.giphy.com/media/l0HlRnAWXxn0MhKLK/giphy.gif",
+        "https://media.giphy.com/media/3og0INyCmHlNylks9O/giphy.gif"
+      ]
+    },
+    {
+      "type": "machista-tintes-racista",
+      "title": "Machista con Extras Racistas",
+      "emoji": "🎭",
+      "description": "Tu especialidad es el machismo, pero te gusta experimentar con el racismo de vez en cuando. Eres como un chef de prejuicios que añade 'un toque' de discriminación racial a su plato principal de sexismo. No te conformas con una sola forma de discriminación, necesitas variedad. La buena noticia: al menos tienes un 'favorito'. La mala: sigues coleccionando sesgos como cromos. Quizás es hora de cambiar de hobby.",
+      "images": [
+        "https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif",
+        "https://media.giphy.com/media/3o6Zt0hNCfak3QCqsw/giphy.gif",
+        "https://media.giphy.com/media/xT0xeuOy2Fcl9vDGiA/giphy.gif"
+      ]
+    },
+    {
+      "type": "racista-tintes-machista",
+      "title": "Racista con Extras Machistas",
+      "emoji": "🎭",
+      "description": "Tu fuerte es el racismo, pero no desprecias un buen sesgo de género de vez en cuando. Eres como un DJ de prejuicios que mezcla tracks de discriminación racial con beats de machismo. La diversidad te da urticaria y la igualdad de género te confunde. No te gusta especializarte, prefieres tener un repertorio variado de sesgos. Podrías intentar coleccionar otra cosa, como sellos o plantas. Spoiler: serías mejor persona.",
+      "images": [
+        "https://media.giphy.com/media/l4FGGafcOHmrlQxG0/giphy.gif",
+        "https://media.giphy.com/media/3o7TKTDn976rzVgky4/giphy.gif",
+        "https://media.giphy.com/media/xT0xeKwWD6mMT6ZfJm/giphy.gif"
+      ]
+    },
+    {
       "type": "ninguno",
-      "title": "Hmm... ¿Eres real?",
-      "description": "O eres la persona más tolerante del planeta, o has mentido más que un político en campaña. Según tus respuestas, no tienes ni un solo prejuicio. Eres prácticamente un unicornio de la igualdad. Puede que seas genuinamente una buena persona... o puede que simplemente sepas qué respuestas 'quedan bien'. En cualquier caso, felicidades por pasar el test. Ahora vuelve al mundo real donde todos tenemos sesgos que trabajar.",
+      "title": "¿Eres Real o un Unicornio?",
+      "emoji": "✨",
+      "description": "Según tus respuestas, eres más puro que un anuncio de detergente. O eres genuinamente la persona más tolerante del planeta, o has mentido más que un político en campaña. No tienes ni un solo prejuicio visible. Eres prácticamente un unicornio de la igualdad. Puede que seas auténticamente buena gente... o puede que simplemente sepas qué respuestas 'quedan bien'. En cualquier caso, felicidades por pasar el test. Ahora vuelve al mundo real donde todos tenemos sesgos inconscientes que trabajar.",
       "images": [
         "https://media.giphy.com/media/3o7abKhOpu0NwenH3O/giphy.gif",
         "https://media.giphy.com/media/l0MYC0LajbaPoEADu/giphy.gif",
@@ -42,7 +134,10 @@
     }
   ],
   "thresholds": {
-    "high": 50,
-    "low": 30
+    "muy-alto": 70,
+    "alto": 50,
+    "moderado": 30,
+    "bajo": 10,
+    "minimo": 0
   }
 }
