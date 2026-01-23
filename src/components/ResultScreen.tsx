@@ -2,6 +2,7 @@ import { useMemo } from 'react';
 import type { Score, ResultType, IntensityLevel } from '../types';
 import { getPercentages, getIntensityLevel } from '../utils/scoring';
 import resultsData from '../data/results.json';
+import { ShareButtons } from './ShareButtons';
 
 interface ResultScreenProps {
   score: Score;
@@ -187,6 +188,15 @@ export function ResultScreen({ score, resultType, onRestart, onGoHome }: ResultS
             {score.racista}/{score.totalRacista} respuestas activadas
           </div>
         </div>
+
+        {/* Botones de compartir */}
+        <ShareButtons
+          resultTitle={resultText?.title || 'Resultado'}
+          resultEmoji={resultText?.emoji || ''}
+          resultType={resultType}
+          machistaPercentage={percentages.machista}
+          racistaPercentage={percentages.racista}
+        />
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
